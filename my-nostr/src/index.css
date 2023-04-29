@@ -16,6 +16,7 @@
       rgb(248, 245, 248) 0%
     );
     box-shadow: 1px 1px 3px grey;
+    height: 12vh;
   }
   .logo{
     font-family:"Sofia", sans-serif;
