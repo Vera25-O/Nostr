@@ -32,4 +32,51 @@
     transition: transform 250ms ease-in-out;
     transform-origin:100% 50%
   }
+  /* footer css */
+.footer {
+    box-shadow: 1px 1px 3px grey;
+    margin-top: 20vh;
+    height: 75vh;
+    opacity: 1;
+    overflow: hidden;
+    bottom: 0;
+    opacity: 1;
+    width: 100%;
+  }
+  .cright{
+    margin-top: 40vh;
+    text-align: center;
+  }
   
+  h4{
+    text-align: center;
+  }
+  .lp{
+    text-align: center;
+  }
+  .location{
+    
+    width: 13%;
+    float: right;
+    margin-top: 6vh;
+    margin-right: 1vh;
+  }
+  
+  hr{
+    background-color: black;
+    margin-top: 30vh;
+    height: 0.2vh;
+    width: 60%;
+  }
+  .nav{
+    float: left;
+    height: 40vh;
+    width: 10%;
+    margin-top: 15vh;
+    margin-left: 2%;
+  }
+  .fp{
+    text-align: center;
+    display: inline-block;
+    color: black;
+  }
