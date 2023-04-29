@@ -4,15 +4,17 @@
     overflow: hidden;
     height: 15vh;
     width: 100%;
-    box-shadow: 1px 1px 3px grey;
+    top: 3%;
+    background-color:rgb(248, 245, 248) 0% ;
+    
   }
   .navbar.active {
     background: linear-gradient(
       0deg,
       rgb(248, 245, 248) 0%,
-      rgb(146, 55, 146) 0%
+      rgb(248, 245, 248) 0%
     );
-    top: 0%;
+    box-shadow: 1px 1px 3px grey;
   }
   .logo{
     font-family:"Sofia", sans-serif;
@@ -45,7 +47,7 @@
   }
   /* landingpage */
   .landing{
-    background-color: rgb(192, 188, 188);
+    background-color: rgb(248, 245, 248) 0%;
     width: 100%;
     height: 100vh;
     margin-top: 20vh;
