@@ -1,6 +1,6 @@
 function LandingPage(){
     return(
-<div>
+<div className="landing">
     <h1>holla</h1>
 </div>
     )
