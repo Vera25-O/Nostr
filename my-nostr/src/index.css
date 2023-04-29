@@ -1,0 +1,35 @@
+/* navbarcsss */
+.navbar {
+    position: fixed;
+    overflow: hidden;
+    height: 15vh;
+    width: 100%;
+    box-shadow: 1px 1px 3px grey;
+  }
+  .navbar.active {
+    background: linear-gradient(
+      0deg,
+      rgb(248, 245, 248) 0%,
+      rgb(146, 55, 146) 0%
+    );
+    top: 0%;
+  }
+  .logo{
+    font-family:"Sofia", sans-serif;
+  }
+  h7 {
+    display: inline-block;
+    margin-left: 5%;
+    padding-top: 3vh;
+    font-size: 2vw;
+    color: black;
+  }
+  h7:after {
+    display:block;
+    content: '';
+    border-bottom: solid 3px #000;  
+    transform: scaleX(0);  
+    transition: transform 250ms ease-in-out;
+    transform-origin:100% 50%
+  }
+  
