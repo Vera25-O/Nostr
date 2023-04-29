@@ -29,8 +29,7 @@ function Navbar() {
         <h7>Gallery</h7>
         <h7>Pricing</h7>
         <h7>Signing</h7>
-        <button>Request Demo</button>
-        <button>Get Started</button>
+        <button className="started">Get Started</button>
     </nav>
     
   );

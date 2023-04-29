@@ -19,7 +19,7 @@
   }
   h7 {
     display: inline-block;
-    margin-left: 5%;
+    margin-left: 4%;
     padding-top: 3vh;
     font-size: 2vw;
     color: black;
@@ -31,6 +31,17 @@
     transform: scaleX(0);  
     transition: transform 250ms ease-in-out;
     transform-origin:100% 50%
+  }
+  .started{
+    background-color:rgb(50, 113, 239);
+    border-color: rgb(50, 113, 239);
+    color: white;
+    border-radius: 5px;
+    width: 14%;
+    height: 7vh;
+    float: right;
+    margin-top: 3vh;
+    margin-right: 3vh;
   }
   /* footer css */
 .footer {
