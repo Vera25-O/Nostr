@@ -91,3 +91,8 @@
     display: inline-block;
     color: black;
   }
+
+  /* Top */
+  .mixed{
+    background-color: rgb(50, 113, 239);
+  }
