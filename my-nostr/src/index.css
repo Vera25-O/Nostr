@@ -12,8 +12,8 @@
   .navbar.active {
     background: linear-gradient(
       0deg,
-      rgb(248, 245, 248) 0%,
-      rgb(248, 245, 248) 0%
+      #ffffff 0%,
+      #ffffff 0%
     );
     box-shadow: 1px 1px 3px grey;
     height: 12vh;
@@ -50,10 +50,41 @@
   /* landingpage */
   .landing{
     left: 0%;
-    background-color: rgb(136, 131, 136) 0%;
+    background-color: rgb(239, 235, 239);
     width: 100%;
-    height: 100vh;
+    height: 110vh;
+  }
+  .sec1text{
+    float:left;
+    margin-left: 4%;
+    margin-top: 40vh;
+    font-size: 4vw;
+    font-weight: bolder;
+  }
+  .sec1{
+    float: right;
+    border-radius: 20px 0px 0px 0px;
+    height: 90vh;
+    width: 40%;
     margin-top: 20vh;
+  }
+  .started2{
+    background-color:rgb(50, 113, 239);
+    border-color: rgb(50, 113, 239);
+    color: white;
+    border-radius: 5px;
+    width: 14%;
+    height: 7vh;
+margin-right: 20%;
+    margin-top: 10vh;
+    margin-left: 4%;
+    text-size-adjust: inherit;
+    
+    
+    
+  }
+  .all{
+    background-color: #ffffff;
   }
   /* footer css */
 .footer {
