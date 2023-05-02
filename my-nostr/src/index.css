@@ -79,10 +79,7 @@
 margin-right: 20%;
     margin-top: 10vh;
     margin-left: 4%;
-    text-size-adjust: inherit;
-    
-    
-    
+    text-size-adjust: inherit;       
   }
   /* section2 */
 
@@ -92,6 +89,18 @@ margin-right: 20%;
   .use{
     text-align: center;
     font-size: 4vh;
+  }
+  .sec2text{
+    float:left;
+    margin-left: 4%;
+    margin-top: 10vh;
+    font-size: 4vw;
+    font-weight: bolder;
+  }
+  .section2p{
+    font-size: 4vh;
+    margin-top: 37vh;
+    margin-left: 4%;
   }
   /* footer css */
 .footer {
