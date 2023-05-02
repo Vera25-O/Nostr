@@ -85,9 +85,13 @@ margin-right: 20%;
     
   }
   /* section2 */
-  
+
   .all{
     background-color: #ffffff;
+  }
+  .use{
+    text-align: center;
+    font-size: 4vh;
   }
   /* footer css */
 .footer {
@@ -121,7 +125,7 @@ margin-right: 20%;
   
   hr{
     background-color: black;
-    margin-top: 30vh;
+    margin-top: 20vh;
     height: 0.2vh;
     width: 60%;
   }
